@@ -7,7 +7,7 @@ hasta un pipeline completo de análisis con dashboard visual.
 
 ## Ejercicio 1 — Análisis de empleados (Nivel básico)
 
-### ¿Qué problema resuelve?
+### Descripción del problema
 Exploración y limpieza de un dataset de 20 empleados,
 rellenando valores nulos con la mediana de cada departamento
 e identificando a los empleados más valiosos.
@@ -30,7 +30,7 @@ Top 5 por salario:    [tabla con los 5 mejor pagados activos]
 
 ## Ejercicio 2 — Ventas por región (Nivel intermedio)
 
-### ¿Qué problema resuelve?
+### Descripción del problema
 Análisis de 120 registros de ventas de productos electrónicos
 en 5 regiones, identificando las combinaciones más rentables
 y el crecimiento mes a mes.
