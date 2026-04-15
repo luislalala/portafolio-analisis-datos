@@ -7,7 +7,7 @@ fundamentales de la programación orientada a objetos en Python.
 
 ## Ejercicio 1 — Sistema escolar (Nivel básico)
 
-### ¿Qué problema resuelve?
+### Descripción del problema
 Modela el registro de calificaciones de estudiantes en una escuela,
 calculando promedios y determinando automáticamente si un estudiante
 aprobó o reprobó.
@@ -43,7 +43,7 @@ print(est)
 
 ## Ejercicio 2 — Control de inventario (Nivel intermedio)
 
-### ¿Qué problema resuelve?
+### Descripción del problema
 Sistema de inventario para una tienda que maneja dos tipos de productos:
 perecederos (con fecha de caducidad) y electrónicos (con garantía).
 Detecta automáticamente qué productos están vencidos.
