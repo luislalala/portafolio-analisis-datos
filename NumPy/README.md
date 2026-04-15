@@ -8,7 +8,7 @@ en favor de operaciones vectorizadas.
 
 ## Ejercicio 1 — Análisis de ventas diarias (Nivel básico)
 
-### ¿Qué problema resuelve?
+### Descripción del problema 
 Analiza las ventas diarias de una tienda durante 30 días,
 calculando estadísticas descriptivas e identificando los días
 de mayor rendimiento.
@@ -33,7 +33,7 @@ Días sobre la media:    ~53%
 
 ## Ejercicio 2 — Correlación de Pearson manual (Nivel intermedio)
 
-### ¿Qué problema resuelve?
+### Descripción del problema
 Calcula la matriz de correlación de Pearson entre 4 variables
 sin usar `np.corrcoef`, implementando la fórmula matemática
 paso a paso con operaciones matriciales.
