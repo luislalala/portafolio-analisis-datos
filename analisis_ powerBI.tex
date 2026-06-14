@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes esenciales
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% Configuración de márgenes
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% Configuración de colores para títulos
+\definecolor{darkblue}{RGB}{0, 51, 102}
+\usepackage{titlesec}
+\titleformat{\section}{\color{darkblue}\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\color{darkblue}\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\title{\textbf{Análisis Estratégico: Rendimiento de Ventas - Dataset Superstore}}
+\author{Luis Fernando Murillo Corral}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Objetivos del Análisis}
+El presente reporte tiene como finalidad evaluar el rendimiento comercial de la empresa, identificando áreas de oportunidad para optimizar la rentabilidad. Los objetivos principales son:
+\begin{itemize}[noitemsep]
+    \item Identificar los sectores con mayor volumen de ventas.
+    \item Analizar las categorías con mayor generación de ganancias durante el periodo 2016-2018.
+    \item Proponer estrategias de mejora en sectores con bajo desempeño.
+\end{itemize}
+
+\section{Análisis de Situación}
+
+\subsection{Sectores con mayor volumen de ventas}
+Tras el análisis de datos, se identifica que la categoría de \textbf{Tecnología} es el motor principal de ventas. En particular, la modalidad de envío \textit{Standard Class} concentra el mayor volumen de transacciones, lo que sugiere una alta demanda de productos tecnológicos en envíos regulares, representando un porcentaje significativo del volumen total.
+
+\subsection{Análisis de rentabilidad (2016-2018)}
+El año 2018 marcó el pico de rentabilidad en el periodo analizado. Se observa una contracción temporal en 2016 dentro de las categorías de Tecnología y Office Supplies. Un hallazgo clave es la estacionalidad: los meses de noviembre y diciembre presentan los mayores niveles de ingresos. Este fenómeno responde tanto a la temporada de festividades como a los posibles cierres presupuestarios corporativos de fin de año.
+
+\subsection{Sectores con oportunidad de mejora}
+La categoría de \textit{Furniture} (Mobiliario) mantiene un crecimiento constante pero lineal. En contraste, la categoría de \textit{Tecnología} posee un campo de innovación más amplio, lo que la posiciona como la candidata ideal para mayores inversiones de marketing y desarrollo estratégico.
+
+\section{Propuestas de Mejora y Estrategias}
+
+\begin{itemize}
+    \item \textbf{Optimización de campañas estacionales:} Dado que noviembre y diciembre son meses críticos, es necesario revisar la caída de ventas observada entre ambos meses en 2018. Se propone una estrategia de marketing segmentada que mantenga el \textit{momentum} de noviembre hacia la última semana de diciembre.
+    
+    \item \textbf{Expansión estratégica en California:} Siendo California el estado con mayor generación de ingresos, se recomienda implementar un plan de conexión logística con zonas aledañas para fomentar la diversificación de rutas y maximizar el alcance de clientes actuales.
+    
+    \item \textbf{Estrategia de precios "Señuelo":} Para incentivar la compra de productos de \textit{First Class}, se propone ajustar los precios de \textit{Second Class} manteniendo una diferencia menor al 10\% respecto a la primera. Esta técnica de arquitectura de precios busca que el cliente perciba un mayor valor en la clase superior. 
+    \textit{Nota: Esta medida será evaluada mediante un test A/B en regiones seleccionadas para medir la elasticidad de la demanda.}
+\end{itemize}
+
+\end{document}
