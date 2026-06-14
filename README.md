@@ -1,2 +1,3 @@
 # portafolio-analisis-datos
- Ejercicios de Python, NumPy, Pandas y Matplotlib
+ Ejercicios de Python, NumPy, Pandas, Matplotlib y power BI
+ 
